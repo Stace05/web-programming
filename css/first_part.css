@@ -1,0 +1,189 @@
+
+
+    body {
+        background-color: white;
+    }
+
+    .headline1 {
+        width: 555px;
+        color: #0B132A;
+        font-family: Rubik;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 70px; 
+        margin-top: 100px;
+        margin-left: 117px;
+    }
+
+
+    .first_laslesvpn {
+        width: 555px;
+        color: #0B132A;
+        font-family: Rubik;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+    }
+
+    .second_laslesvpn {
+        width: 555px;
+        color: #4F5665;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .first_par {
+        width: 555px;
+        color: #4F5665;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-left: 117px;
+        margin-top: -20px;
+    }
+
+
+    .menu_list {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .menu_list li {
+        margin-right: 40px;
+    }
+
+    .menu_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        gap: 40px;
+    }
+
+
+    #about, #features, #pricing, #testimonials, #help {
+        color: #4F5665;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 50px;
+    }
+
+    .vpn_icon1 {
+        width: 35px;
+        height: 36.232px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 45px;
+        left: 117px;
+    }
+
+    #logo_name1 {
+        color: #0B132A;
+        font-family: Rubik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: absolute;
+        top: 55px;
+        left: 160px;
+    }
+
+    #lasles1 {
+        color: #0B132A;
+        font-family: Rubik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+    #sign_in {
+        color: #0B132A;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        top: 43px;
+        right: 250px;
+    }
+
+    #sign_up {
+        color: #F53855;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        top: 43px;
+        right: 120px;
+    }
+
+    .red_border1 {
+        width: 150px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        border: 1px solid #F53855;
+        float: right;
+        margin-top: -32px;
+        margin-right: 65px;
+    }
+
+    .image1_container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .image1 {
+        max-width: 100%;
+        height: auto;
+        flex-shrink: 0;
+        margin-top: -295px;
+    }
+
+
+    .main_button {
+        margin-left: 117px;
+        width: 250px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #F53838;
+        color: #FFF;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    .main_button_shadow {
+        margin-top: -1px;
+        margin-left: 130px;
+        width: 211.829px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: rgba(245, 56, 56, 0.35);
+        filter: blur(27px);
+
+    }
+

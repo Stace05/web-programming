@@ -1,0 +1,161 @@
+
+
+
+.background_container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    position: relative;
+    width: 962px;
+    height: 233px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    border: 2px solid white;
+    margin-top: 300px;
+}
+
+.headline4 {
+    position: absolute;
+    width: 371.615px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: -180px;
+    margin-left: 215px;
+}
+
+
+.footer_background {
+    height: 440px;
+    background: #F6F5F5;
+    margin-top: -100px;
+}
+
+.forth_par {
+    position: absolute;
+    width: 410px;
+    height: 16px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 215px;
+    margin-top: -80px;
+}
+
+.subscribe_button {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F53838;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left: 770px;
+    margin-top: -145px;
+}
+
+.subscribe_button_shadow {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 785px;
+    width: 211.829px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(27px);
+}
+
+.copyright {
+    color: #AFB5C0;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    /*margin-top: -250px;
+    margin-right: 830px;*/
+}
+
+.socials_container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.socials {
+    /*position: absolute;*/
+    width: 205px;
+    height: 49px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    /*margin-top: -47px;*/
+    
+}
+
+
+.vpn_icon2 {
+   /*position: absolute;
+    margin-top: -53px;
+    margin-left: 960px;*/
+    width: 35px;
+    height: 36.232px;
+    flex-shrink: 0;
+    margin-top: -5px;
+}
+
+
+
+#logo_name2 {
+    /*position: absolute;*/
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /*margin-top: -45px;
+    margin-left: 1005px;*/
+}
+
+#lasles2 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -300px;
+    gap: 240px;
+}
+
+.logo_name_container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
