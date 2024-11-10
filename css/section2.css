@@ -1,0 +1,129 @@
+.image2 {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.headline2 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+.second_par {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.features_list {
+    list-style-type: none;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.check_list {
+    list-style-type: none;
+    margin-right: -30px;
+}
+
+.list_container {
+    display: flex;
+    justify-content: center;
+    gap: -50px;
+}
+
+.second_part {
+    background: linear-gradient(180deg, #F6F5F5 -45.04%, #FFF 19.67%, #F4F3F3 88.56%);
+    height: 830px;
+    flex-shrink: 0;
+    margin-top: 60px;
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .image2 {
+        max-width: 100%;
+        height: auto;
+        margin-top: 95px;
+        margin-left: 70px;
+    }
+    
+    .headline2 {
+        text-align: left;
+        width: 383.406px;
+        float: right;
+        color: #0B132A;
+        font-family: Rubik;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px;
+        margin-top: 129px;
+        margin-right: 178px;
+    }
+    
+    .second_par {
+        width: 427.879px;
+        color: #4F5665;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: -250px;
+        margin-right: 130px;
+        float: right;
+        text-align: left;
+    }
+    
+    .features_list {
+        list-style-type: none;
+        color: #4F5665;
+        font-family: Rubik;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        position: absolute;
+        margin-left: 360px;
+        margin-top: -152px;
+    }
+    
+        .features_list li {
+            margin-bottom: 5px;
+        }
+    
+        .check_list {
+            list-style-type: none;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: -150px;
+        }
+    
+        .check_list li {
+            margin-bottom: 5px;
+        }
+    
+    
+    
+        .second_part {
+            background: linear-gradient(180deg, #F6F5F5 -45.04%, #FFF 19.67%, #F4F3F3 88.56%);
+            height: 637px;
+            flex-shrink: 0;
+            margin-top: 60px;
+        }
+}

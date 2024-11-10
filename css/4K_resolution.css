@@ -1,0 +1,244 @@
+@media only screen and (min-width: 2560px) {
+    .first_part {
+        width: 100%;
+    }
+        .headline1 {
+            font-size: 75px;
+            margin-left: 300px;
+        }
+  .first_laslesvpn {
+      width: 555px;
+      color: #0B132A;
+      font-family: Rubik;
+      font-size: 75px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 70px;
+  }
+
+  .second_laslesvpn {
+      width: 555px;
+      color: #4F5665;
+      font-family: Rubik;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px;
+  }
+   .first_par {
+       font-size: 24px;
+       margin-left: 300px;
+   }
+
+        #about,
+        #features,
+        #pricing,
+        #testimonials,
+        #help {
+            font-size: 24px;
+        }
+
+        .vpn_icon1 {
+            width: 52,5px;
+            height: 52,5px;
+        }
+        #logo_name1 {
+            font-size: 30px;
+        }
+        
+         #lasles1 {
+            font-size: 30px;
+        }
+        #sign_in {
+            font-size: 24px;
+            margin-right: -250px;
+        }
+        #sign_up {
+            font-size: 24px;
+            margin-right: -250px;
+        }
+
+        .red_border1 {
+            margin-right: -250px;
+        }
+
+        .image1 {
+            width: 916px;
+            height: 609px;
+            margin-top: -250px;
+        }
+
+        .image2 {
+            width: 916px;
+            height: 609px;
+            margin-top: -2px;
+        }
+
+        .main_button {
+            width: 375px;
+            height: 90px;
+            font-size: 24px;
+            margin-top: -370px;
+            margin-left: 205px;
+        }
+
+        .main_button_shadow {
+            width: 365px;
+            height: 60px;
+            margin-left: 205px;
+            margin-top: -15px;
+        }
+
+        .headline2 {
+            width: 576px;
+            font-size: 53px;
+        }
+
+        .features_list {
+            font-size: 21px;
+            margin-right: -990px;
+            margin-top: -250px;
+        }
+
+        .features_list li {
+            margin-bottom: 10px;
+        }
+
+        .check_list {
+            margin-right: -940px;
+            margin-top: -250px;
+        }
+
+        .check_list li {
+            width: 36px;
+            height: 36px;
+        }
+
+        .second_par {
+            font-size: 24px;
+            width: 640px;
+            margin-top: 270px;
+            margin-right: -640px;
+        }
+
+        .headline3 {
+            font-size: 53px;
+            width: 590px;
+        }
+
+        .third_par {
+            font-size: 24px;
+            width: 729px;
+            margin-top: 40px;
+        }
+
+        .border_container {
+            gap: 65px;
+        }
+
+        #first_border, #second_border, #third_border {
+            width: 527px;
+            height: 345px;
+        }
+
+        .names_container {
+            font-size: 27px;
+            margin-top: -330px;
+            margin-left: 550px;
+            gap: 400px;
+        }
+
+        .places_container {
+            font-size: 21px;
+            margin-left: 553px;
+            gap: 428px;
+        }
+
+        .par_container {
+            font-size: 32px;
+            text-align: left;
+            gap: 141px;
+            width: 100%;
+            height: auto;
+            }
+            
+            #par1 {
+                width: 445px;
+                height: 150px;
+                text-align: left;
+            }
+            
+            #par2 {
+                width: 445px;
+                height: 150px;
+                text-align: left;
+            }
+            
+            #par3 {
+                width: 445px;
+                height: 150px;
+                text-align: left;
+            }
+
+            .rating_container {
+                font-size: 24px;
+                gap: 540px;
+                margin-left: 800px;
+                margin-top: -300px;
+            }
+
+            .stars_container {
+                gap: 555px;
+                margin-left: 880px;
+                margin-top: -50px;
+            }
+
+            .headline4 {
+                width: 556px;
+                height: 120px;
+                font-size: 52px
+            }
+
+            .banner {
+                width: 1443px;
+                height: 349px;
+                margin-top: 500px;
+            }
+
+            .forth_par {
+                font-size: 24px;
+            }
+
+            .subscribe_button {
+                width: 375px;
+                height: 90px;
+                font-size: 24px;
+                margin-left: 1000px;
+                margin-top: 125px;
+            }
+
+            .copyright {
+                font-size: 24px;
+            }
+
+            #lasles2, #logo_name2 {
+                font-size: 30px;
+            }
+
+            .socials {
+                width: 310px;
+                height: 98px;
+            }
+
+        .subscribe_button_shadow {
+            width: 365px;
+            height: 60px;
+            margin-top: 210px;
+            margin-right: 70px;
+        }
+        .vpn_icon2 {
+            width: 70px;
+            height: 70px;
+        }
+}
+

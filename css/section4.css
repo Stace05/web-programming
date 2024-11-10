@@ -1,0 +1,318 @@
+
+.background_container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    position: relative;
+    width: 80%;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    border: 2px solid white;
+    margin-top: 850px;
+}
+
+.headline4 {
+    position: absolute;
+    height: 80px;
+    flex-shrink: 0;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,5px;
+    margin-top: -5px;
+}
+
+.footer_background {
+    height: 280px;
+    background: #F6F5F5;
+    margin-top: 200px;
+}
+
+.forth_par {
+    max-width: 100%;
+    height: 16px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.subscribe_button {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F53838;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 35px;
+    padding-right: 65px;
+    padding-left: 65px;
+    color: #FFF;
+    display: block;
+    padding: 15px 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+a.subscribe_button {
+    color: #FFF;
+}
+
+.subscribe_container {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    position: absolute;
+    color: #AFB5C0;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 230px;
+    margin-right: 150px;
+}
+
+.socials_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.facebook, .instagram, .twitter {
+    max-width: 100%;
+    height: 49px;
+    flex-shrink: 0;
+    margin-top: 120px;
+}
+
+
+.logo_name_container2 {
+    display: flex;
+    gap: 5px;
+    margin-top: -80px;
+    margin-left: 125px;
+}
+
+.vpn_icon2 {
+    max-width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+#logo_name2 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#lasles2 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -300px;
+    gap: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1280px) {
+    .background_container {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .banner {
+            position: relative;
+            width: 962px;
+            height: 233px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: #FFF;
+            border: 2px solid white;
+            margin-top: 250px;
+        }
+    
+        .headline4 {
+            position: absolute;
+            width: 371.615px;
+            height: 80px;
+            flex-shrink: 0;
+            color: #0B132A;
+            font-family: Rubik;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 45px;
+            margin-left: 70px;
+            margin-top: 50px;
+        }
+    
+    
+        .footer_background {
+            height: 340px;
+            background: #F6F5F5;
+            /*margin-top: 300px;*/
+            margin-top: -100px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .forth_par {
+            position: absolute;
+            width: 410px;
+            height: 16px;
+            color: #4F5665;
+            font-family: Rubik;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            margin-left: 70px;
+            margin-top: 158px;
+        }
+    
+        .subscribe_button {
+            position: absolute;
+            width: 250px;
+            height: 60px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: #F53838;
+            color: #FFF;
+            font-family: Rubik;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px;
+            margin-left: 650px;
+            margin-top: 75px;
+            float: right;
+        }
+    
+        .subscribe_button_shadow {
+            position: relative;
+            float: right;
+            margin-right: 80px;
+            margin-top: 160px;
+            width: 211.829px;
+            height: 30px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: rgba(245, 56, 56, 0.35);
+            filter: blur(27px);
+        }
+    
+        .copyright {
+            color: #AFB5C0;
+            text-align: center;
+            font-family: Rubik;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            margin-top: -220px;
+            margin-right: 815px;
+        }
+    
+        .socials_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 345px;
+        }
+    
+    
+        .socials {
+            width: 205px;
+            height: 49px;
+            flex-shrink: 0;
+            margin-top: -225px;
+        }
+    
+    
+        .vpn_icon2 {
+            width: 35px;
+            height: 36.232px;
+            flex-shrink: 0;
+            margin-top: -5px;
+        }
+    
+    
+    
+        #logo_name2 {
+            color: #0B132A;
+            font-family: Rubik;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    
+        #lasles2 {
+            color: #0B132A;
+            font-family: Rubik;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    
+        .footer_container {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 210px;
+        }
+    
+        .logo_name_container2 {
+            display: flex;
+            gap: 5px;
+            margin-left: 145px;
+            margin-top: -230px;
+        }
+}

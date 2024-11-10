@@ -1,0 +1,15 @@
+@import "first_button_animation.css";
+@import "second_button_animation.css";
+@import "text_animation.css";
+@import "section1.css";
+@import "section2.css";
+@import "section3.css";
+@import "section4.css";
+@import "4K_resolution.css";
+@import "burger_menu.js";
+@import "tablet_resolution.css"
+
+
+/** {
+    outline: 4px solid green !important;
+}*/
