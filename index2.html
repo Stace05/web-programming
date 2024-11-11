@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Animal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="headline_create">Create animal</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <form id="animalForm">
+            <label for="animalName">Animal Name:</label>
+            <input type="text" id="animalName" name="animalName" required />
+
+            <label for="animalCategory">Category:</label>
+            <select id="animalCategory" name="animalCategory" required>
+                <option value="cats">Cat</option>
+                <option value="dogs">Dog</option>
+                <option value="hamsters">Hamster</option>
+            </select>
+
+            <label for="animalPrice">Price:</label>
+            <input type="number" id="animalPrice" name="animalPrice" required min="1"/>
+
+            <label for="animalImage">Image URL:</label>
+            <input type="text" id="animalImage" name="animalImage" required />
+
+            <button type="submit" class="saveAnimalButton">Save Animal</button>
+        </form>
+
+        <button onclick="window.location.href='index.html'" class="back2catalog">Back to Catalog</button>
+    </main>
+
+    <script src="js/create_animals.js"></script>
+</body>
+</html>

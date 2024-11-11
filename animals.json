@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Persian cat",
+    "category": "cats",
+    "price": 2800,
+    "image": "images/persian_cat.jpg"
+  },
+  {
+    "id": 2,
+    "name": "British Shorthair",
+    "category": "cats",
+    "price": 2100,
+    "image": "images/british_shorthair.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Bengal",
+    "category": "cats",
+    "price": 1900,
+    "image": "images/bengal.jpg"
+  },
+  {
+    "id": 4,
+    "name": "German Shepherd",
+    "category": "dogs",
+    "price": 1700,
+    "image": "images/german_shepherd.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Chinese hamster",
+    "category": "hamsters",
+    "price": 40,
+    "image": "images/chinese_hamster.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Golden Syrian hamster",
+    "category": "hamsters",
+    "price": 50,
+    "image": "images/syrian_hamster.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Maine Coon",
+    "category": "cats",
+    "price": 1800,
+    "image": "images/maine_coon.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Terrier",
+    "category": "dogs",
+    "price": 1900,
+    "image": "images/terrier1.jpg"
+  }
+]

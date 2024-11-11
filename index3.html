@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Animal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+        form input, form select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        form button {
+            margin-top: 15px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="headline_edit">Edit Animal</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <form id="editAnimalForm">
+            <label for="editAnimalName">Animal Name:</label>
+            <input type="text" id="editAnimalName" name="editAnimalName" required />
+
+            <label for="editAnimalCategory">Category:</label>
+            <select id="editAnimalCategory" name="editAnimalCategory" required>
+                <option value="cats">Cat</option>
+                <option value="dogs">Dog</option>
+                <option value="hamsters">Hamster</option>
+            </select>
+
+            <label for="editAnimalPrice">Price:</label>
+            <input type="number" id="editAnimalPrice" name="editAnimalPrice" required min="1"/>
+
+            <label for="editAnimalImage">Image URL:</label>
+            <input type="text" id="editAnimalImage" name="editAnimalImage" required />
+
+            <button type="submit" id="saveEditButton">Save Changes</button>
+        </form>
+
+        <button onclick="window.location.href='index.html'" class="back_to_catalog">Back to Catalog</button>
+    </main>
+
+    <script src="js/edit_animals.js"></script>
+</body>
+</html>
