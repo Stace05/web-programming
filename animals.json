@@ -1,0 +1,51 @@
+[
+  {
+    "id": 3,
+    "name": "Bengal",
+    "category": "cats",
+    "price": 666666666666,
+    "image": "images/bengal.jpg"
+  },
+  {
+    "id": 4,
+    "name": "German Shepherd",
+    "category": "dogs",
+    "price": 66666,
+    "image": "images/german_shepherd.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Chinese hamster",
+    "category": "hamsters",
+    "price": 40,
+    "image": "images/chinese_hamster.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Syrian hamster",
+    "category": "hamsters",
+    "price": 50,
+    "image": "images/syrian_hamster.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Maine Coon",
+    "category": "cats",
+    "price": 1800,
+    "image": "images/maine_coon.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Terrier",
+    "category": "dogs",
+    "price": 1900,
+    "image": "images/terrier.jpg"
+  },
+  {
+    "name": "dd",
+    "image": "https://s30379.pcdn.co/wp-content/uploads/2019/09/p1dfjorjqds6c9o21dre1ngs1p3j6.jpg",
+    "price": 0.23,
+    "category": "cats",
+    "id": 9
+  }
+]
