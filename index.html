@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>catalog</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="search-area">
+          <input type="text" id="search" placeholder="Search animals..." />
+          <svg
+            class="search-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+            <path d="M21 21l-6 -6" />
+          </svg>
+        </div>
+
+        <button id="cartButton" class="cart-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z"
+            />
+            <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+          </svg>
+          <small id="cartCount" class="cart-count">0</small>
+        </button>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li>About</li>
+          <li>Contact us</li>
+          <li>Help</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <button class="add_animal_button"><a href="index2.html">Create animal</a></button>
+      <div class="filters">
+        <h2></h2>
+        <h3>Category</h3>
+        <div id="filters-container">
+          <div>
+            <input type="checkbox" class="check" id="cats" />
+            <label for="cats">Cats</label>
+          </div>
+          <div>
+            <input type="checkbox" class="check" id="dogs" />
+            <label for="dogs">Dogs</label>
+          </div>
+          <div>
+            <input type="checkbox" class="check" id="hamsters" />
+            <label for="hamsters">Hamsters</label>
+          </div>
+        </div>
+        <div class="sort_by_price"><h3>Sort by Price</h3>
+        <select id="sortPrice">
+          <option value="none">No Sort</option>
+          <option value="asc">Price: Low to High</option>
+          <option value="desc">Price: High to Low</option>
+        </select>
+        </div>
+        <h3>Total Price: $<span id="totalPrice">0</span></h3>
+      </div>
+
+      <div id="animals-wrapper"></div>
+      <div id="animal-container"></div>
+    </main>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
