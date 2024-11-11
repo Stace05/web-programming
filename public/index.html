@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimalCatalog</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-paw"></i>
+            AnimalCatalog
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search animals...">
+            <button class="search-btn" onclick="searchAnimals()">
+                <i class="fas fa-search"></i>
+            </button>
+            <button class="clear-btn" onclick="clearSearch()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <nav> 
+            <div class="total-price-container">
+                <h5>Total Price: $<span id="totalPrice">0</span></h5>
+            </div>
+            <h5>Sort by:</h5>
+            <select id="sortPrice">
+                <option value="none">No Sort</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="name-asc">Name: A to Z</option>
+                <option value="name-desc">Name: Z to A</option>
+            </select>
+            <button id="open-create-modal">
+                <i class="fas fa-plus"></i> Create Animal
+            </button>
+        </nav>
+    </header>
+
+    <div id="filters-container" class="filters">
+        <h3>Categories:</h3>
+        <label><input type="checkbox" name="category" value="cats"> Cats</label>
+        <label><input type="checkbox" name="category" value="dogs"> Dogs</label>
+        <label><input type="checkbox" name="category" value="hamsters"> Hamsters</label>
+    </div>
+
+    <main class="container">
+        <div id="animals-wrapper" class="animal-list"></div>
+    </main>
+
+    <div id="create-animal-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="toggleCreateAnimalModal(false)">&times;</span>
+            <h2>Create New Animal</h2>
+            <form id="create-animal-form">
+                <label for="animal-name">Name:</label>
+                <input type="text" id="animal-name" name="name" required>
+
+                <label for="animal-image">Image URL:</label>
+                <input type="text" id="animal-image" name="image" required>
+
+                <label for="animal-price">Price:</label>
+                <input type="number" id="animal-price" name="price" step="0.01" required>
+
+                <label for="animal-category">Category:</label>
+                <select id="animal-category" name="category" required>
+                    <option value="">Select Category</option>
+                    <option value="cats">Cats</option>
+                    <option value="dogs">Dogs</option>
+                    <option value="hamsters">Hamsters</option>
+                </select>
+
+                <button type="submit" class="primary-btn">Create Animal</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
