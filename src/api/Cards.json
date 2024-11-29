@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "title": "Bengal",
+        "text": "Cute kitten that is looking for a family",
+        "imgpath": "components/image/bengal.jpg",
+        "price": 1000,
+        "category": "cat"
+    },
+    {
+        "id": 2,
+        "title": "German Shepherd",
+        "text": "Cute puppy that is looking for a family",
+        "imgpath": "components/image/german.jpg",
+        "price": 300,
+        "category": "dog"
+    },
+    {
+        "id": 3,
+        "title": "Chinese Hamster",
+        "text": "Cute hamster that is looking for a family",
+        "imgpath": "components/image/chinese.png",
+        "price": 40,
+        "category": "hamster"
+    },
+    {
+        "id": 4,
+        "title": "Syrian Hamster",
+        "text": "Cute hamster that is looking for a family",
+        "imgpath": "components/image/syrian.jpg",
+        "price": 50,
+        "category": "hamster"
+    },
+    {
+        "id": 5,
+        "title": "Maine Coon",
+        "text": "Cute kitten that is looking for a family",
+        "imgpath": "components/image/maine_coon.jpg",
+        "price": 1200,
+        "category": "cat"
+    },
+    {
+        "id": 6,
+        "title": "Terrier",
+        "text": "Cute puppy that is looking for a family",
+        "imgpath": "components/image/terrier.jpg",
+        "price": 2000,
+        "category": "dog"
+    },
+    {
+        "id": 7,
+        "title": "Persian Cat",
+        "text": "Cute kitten that is looking for a family",
+        "imgpath": "components/image/persian.jpg",
+        "price": 1100,
+        "category": "cat"
+    },
+    {
+        "id": 8,
+        "title": "British Shorthair",
+        "text": "Cute kitten that is looking for a family",
+        "imgpath": "components/image/british.jpg",
+        "price": 2500,
+        "category": "cat"
+    }
+]
+
