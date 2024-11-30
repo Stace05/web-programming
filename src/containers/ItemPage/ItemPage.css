@@ -1,0 +1,125 @@
+
+
+.itempage__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.main__info img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.main__info article {
+    padding: 20px;
+    text-align: center;
+}
+
+.main__info h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.main__info p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.main__price-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.main__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.main__price-price {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons_go_back {
+    padding: 10px 25px;
+    background-color: #deb887;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.buttons_go_back:hover {
+    background-color: #deb887;
+}
+
+@media (min-width: 768px) {
+    .itempage__main {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .main__info {
+        flex-direction: row;
+        max-width: 1200px;
+    }
+
+    .main__info img {
+        width: 50%;
+        height: auto;
+    }
+
+    .main__info article {
+        width: 50%;
+        text-align: left;
+        padding: 30px;
+    }
+
+    .main__price-buttons {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .buttons_go_back {
+        font-size: 1.1rem;
+    }
+}

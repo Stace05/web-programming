@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Bengal",
+    "text": "Cute kitten that is looking for a family",
+    "imgpath": "Bengal",
+    "price": 1000,
+    "category": "cat",
+    "stock": [
+      {
+        "color": "white",
+        "amount": 10
+      },
+      {
+        "color": "brown",
+        "amount": 5
+      }
+    ],
+    "quantity": 4,
+    "color": "brown"
+  },
+  {
+    "id": 1,
+    "title": "Bengal",
+    "text": "Cute kitten that is looking for a family",
+    "imgpath": "Bengal",
+    "price": 1000,
+    "category": "cat",
+    "stock": [
+      {
+        "color": "white",
+        "amount": 10
+      },
+      {
+        "color": "brown",
+        "amount": 5
+      }
+    ],
+    "quantity": 3,
+    "color": "white"
+  }
+]

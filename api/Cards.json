@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "title": "Bengal",
+        "text": "Cute kitten that is looking for a family",
+        "imgpath": "Bengal",
+        "price": 1000,
+        "category": "cat",
+        "stock": [
+            { "color": "white", "amount": 10 },
+            { "color": "brown", "amount": 5 }
+          ]
+    },
+    {
+        "id": 2,
+        "title": "German Shepherd",
+        "text": "Cute puppy that is looking for a family",
+        "imgpath": "German",
+        "price": 300,
+        "category": "dog",
+        "stock": [
+            { "color": "brown", "amount": 10 },
+            { "color": "black", "amount": 5 }
+          ]
+    },
+    {
+        "id": 3,
+        "title": "Chinese Hamster",
+        "text": "Cute hamster that is looking for a family",
+        "imgpath": "Chinese",
+        "price": 40,
+        "category": "hamster",
+        "stock": [
+            { "color": "yellow", "amount": 10 },
+            { "color": "orange", "amount": 5 }
+          ]
+    },
+    {
+        "id": 4,
+        "title": "Syrian Hamster",
+        "text": "Cute hamster that is looking for a family",
+        "imgpath": "Syrian",
+        "price": 50,
+        "category": "hamster",
+        "stock": [
+            { "color": "white", "amount": 10 },
+            { "color": "gray", "amount": 5 }
+          ]
+    },
+    {
+        "id": 5,
+        "title": "Maine Coon",
+        "text": "Cute kitten that is looking for a family",
+        "imgpath": "Maine_Coon",
+        "price": 1200,
+        "category": "cat",
+        "stock": [
+            { "color": "gray", "amount": 10 },
+            { "color": "black", "amount": 5 }
+          ]
+    },
+    {
+        "id": 6,
+        "title": "Terrier",
+        "text": "Cute puppy that is looking for a family",
+        "imgpath": "Terrier",
+        "price": 2000,
+        "category": "dog",
+        "stock": [
+            { "color": "brown", "amount": 10 },
+            { "color": "orange", "amount": 5 }
+          ]
+    },
+    {
+        "id": 7,
+        "title": "Persian Cat",
+        "text": "Cute kitten that is looking for a family",
+        "imgpath": "Persian",
+        "price": 1100,
+        "category": "cat",
+        "stock": [
+            { "color": "white", "amount": 10 },
+            { "color": "orange", "amount": 5 }
+          ]
+    },
+    {
+        "id": 8,
+        "title": "British Shorthair",
+        "text": "Cute kitten that is looking for a family",
+        "imgpath": "British",
+        "price": 2500,
+        "category": "cat",
+        "stock": [
+            { "color": "light gray", "amount": 10 },
+            { "color": "dark gray", "amount": 5 }
+          ]
+    }
+]
+
