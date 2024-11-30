@@ -1,42 +1,66 @@
+// edit_animals.js
 document.addEventListener("DOMContentLoaded", function() {
+    console.log("Edit Animal script loaded.");
     const editAnimalForm = document.getElementById("editAnimalForm");
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const animalId = parseInt(urlParams.get('id'));
-
-
-    let animals = [];
-    const storedAnimals = localStorage.getItem('animals');
-    if (storedAnimals) {
-        animals = JSON.parse(storedAnimals);
-    } else {
-        alert("Каталог тварин порожній.");
-        window.location.href = 'index.html';
+    if (!editAnimalForm) {
+        console.error("Edit form not found!");
+        alert("Форма редагування не знайдена!");
         return;
     }
 
-    const animal = animals.find(a => a.id === animalId);
+    const animalId = new URLSearchParams(window.location.search).get('id');
+    console.log("Animal ID:", animalId);
+    if (!animalId) {
+        alert("ID тварини не вказано!");
+        return;
+    }
 
+    let animals = JSON.parse(localStorage.getItem('animals')) || [];
+    console.log("Current animals in localStorage:", animals);
+
+    const animalIndex = animals.findIndex(animal => animal.id === parseInt(animalId));
+    console.log("Animal index in array:", animalIndex);
+
+    if (animalIndex === -1) {
+        alert("Тварину не знайдено!");
+        return;
+    }
+
+    const animal = animals[animalIndex];
+    // Заповнення форми поточними даними тварини
     document.getElementById("editAnimalName").value = animal.name;
     document.getElementById("editAnimalCategory").value = animal.category;
     document.getElementById("editAnimalPrice").value = animal.price;
     document.getElementById("editAnimalImage").value = animal.image;
 
     editAnimalForm.addEventListener("submit", function(event) {
-        event.preventDefault(); 
-        const updatedName = document.getElementById("editAnimalName").value.trim();
-        const updatedCategory = document.getElementById("editAnimalCategory").value;
-        const updatedPrice = parseFloat(document.getElementById("editAnimalPrice").value);
-        const updatedImage = document.getElementById("editAnimalImage").value.trim();
+        event.preventDefault();
+        console.log("Edit form submitted.");
 
-        animal.name = updatedName;
-        animal.category = updatedCategory;
-        animal.price = updatedPrice;
-        animal.image = updatedImage;
+        const editAnimalName = document.getElementById("editAnimalName").value.trim();
+        const editAnimalCategory = document.getElementById("editAnimalCategory").value;
+        const editAnimalPrice = parseFloat(document.getElementById("editAnimalPrice").value);
+        const editAnimalImage = document.getElementById("editAnimalImage").value.trim();
+
+        console.log("New values:", { editAnimalName, editAnimalCategory, editAnimalPrice, editAnimalImage });
+
+        if (!editAnimalName || !editAnimalCategory || !editAnimalPrice || !editAnimalImage) {
+            alert("Будь ласка, заповніть усі поля!");
+            return;
+        }
+
+        animals[animalIndex] = {
+            ...animals[animalIndex],
+            name: editAnimalName,
+            category: editAnimalCategory,
+            price: editAnimalPrice,
+            image: editAnimalImage
+        };
 
         localStorage.setItem('animals', JSON.stringify(animals));
-
-        alert("Тварина успішно оновлена!");
-
+        console.log("Updated animals in localStorage:", animals);
+        alert("Зміни збережено!");
+        window.location.href = 'index.html';
     });
 });
