@@ -1,37 +1,45 @@
+
 document.addEventListener("DOMContentLoaded", function() {
-  const animalForm = document.getElementById("animalForm");
+    console.log("Create Animal script loaded.");
+    const animalForm = document.getElementById("animalForm");
 
-  animalForm.addEventListener("submit", function(event) {
-      event.preventDefault(); 
+    if (!animalForm) {
+        console.error("Create form not found!");
+        alert("Форма створення не знайдена!");
+        return;
+    }
 
-      const name = document.getElementById("animalName").value.trim();
-      const category = document.getElementById("animalCategory").value;
-      const price = parseFloat(document.getElementById("animalPrice").value);
-      const image = document.getElementById("animalImage").value.trim();
-      
+    animalForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+        console.log("Create form submitted.");
 
-      let animals = [];
-      const storedAnimals = localStorage.getItem('animals');
-      if (storedAnimals) {
-          animals = JSON.parse(storedAnimals);
-      }
+        const name = document.getElementById("animalName").value.trim();
+        const category = document.getElementById("animalCategory").value;
+        const price = parseFloat(document.getElementById("animalPrice").value);
+        const image = document.getElementById("animalImage").value.trim();
 
-      const newId = animals.length > 0 ? Math.max(...animals.map(a => a.id)) + 1 : 1;
+        console.log("New animal details:", { name, category, price, image });
 
-      const newAnimal = {
-          id: newId,
-          name: name,
-          category: category,
-          price: price,
-          image: image
-      };
+        if (!name || !category || !price || !image) {
+            alert("Будь ласка, заповніть усі поля!");
+            return;
+        }
 
-      animals.push(newAnimal);
+        let animals = JSON.parse(localStorage.getItem('animals')) || [];
+        console.log("Current animals in localStorage:", animals);
 
-      localStorage.setItem('animals', JSON.stringify(animals));
+        const newAnimal = {
+            id: animals.length > 0 ? animals[animals.length - 1].id + 1 : 1,
+            name,
+            category,
+            price,
+            image
+        };
 
-      alert("Тварина успішно додана до каталогу!");
-
-      animalForm.reset();
-  });
+        animals.push(newAnimal);
+        localStorage.setItem('animals', JSON.stringify(animals));
+        console.log("Updated animals in localStorage:", animals);
+        alert("Тварину додано до каталогу!");
+        window.location.href = 'index.html';
+    });
 });
